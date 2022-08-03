@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0073F645EBEF4E8FA97FF7BC /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E37522ED4BE448F182C4F672 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D90F747EBB9D84BE78DD65E7 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				FC612AE87CB748A3887210F7 /* PBXTargetDependency */,
+				91CEDA1E4EA24D108BC4A3B5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		AAD4B162C1B34980B592545C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5332D2A58AA04484B73FF2F0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EC22958CC51459D0B443836C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13D4640852294BB6A76A5333 /* /Users/zrz-oliver/CLionProjects/Opengl/main.cpp */ = {isa = PBXBuildFile; fileRef = 71A5A406145546289B56819B /* /Users/zrz-oliver/CLionProjects/Opengl/main.cpp */; };
+		BCD5F71640E94E9193194257 /* /Users/zrz-oliver/CLionProjects/Opengl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A0CEB416EE4E4E62B34B160E /* /Users/zrz-oliver/CLionProjects/Opengl/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		32C1BF2DA62344E78D59CE79 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		731933FCF1C74625A31ABEF2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B5B9CE6A09144B4885654414 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E50BC21BC41B413184F35475 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0054A830DDEB4BBF81B46E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6096AE3BD4F4153AEE28336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD4B162C1B34980B592545C;
+			remoteInfo = ZERO_CHECK;
+		};
+		85C7247C945A49EDBD833FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6096AE3BD4F4153AEE28336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD4B162C1B34980B592545C;
+			remoteInfo = ZERO_CHECK;
+		};
+		924C2B9B66924538995A71C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6096AE3BD4F4153AEE28336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B77D05C9E86044E6A514A8F6;
+			remoteInfo = test_opengl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F41068CC0664DBCB29E0392 /* test_opengl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test_opengl; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A5A406145546289B56819B /* /Users/zrz-oliver/CLionProjects/Opengl/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		A0CEB416EE4E4E62B34B160E /* /Users/zrz-oliver/CLionProjects/Opengl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A2A677E88F4C4600A6305CC9 /* /Users/zrz-oliver/CLionProjects/Opengl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5FBD428D6994126BC530113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21936BA2EB8A4FF0AC95D337 /* test_opengl */ = {
+			isa = PBXGroup;
+			children = (
+				C60F8B7F735D4574B0B3334D /* Source Files */,
+				A0CEB416EE4E4E62B34B160E /* /Users/zrz-oliver/CLionProjects/Opengl/CMakeLists.txt */,
+			);
+			name = test_opengl;
+			sourceTree = "<group>";
+		};
+		284CC509D4BE49EC9C6334F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39416C1DE9B44D88BF999E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F41068CC0664DBCB29E0392 /* test_opengl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CFA0B4E9E4410BA6F312C6 = {
+			isa = PBXGroup;
+			children = (
+				21936BA2EB8A4FF0AC95D337 /* test_opengl */,
+				C41EE21EEE4942DC812DC349 /* ALL_BUILD */,
+				39416C1DE9B44D88BF999E7A /* Products */,
+				284CC509D4BE49EC9C6334F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C41EE21EEE4942DC812DC349 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B6C1BB77540E390A55253 /* CMake Rules */,
+				A2A677E88F4C4600A6305CC9 /* /Users/zrz-oliver/CLionProjects/Opengl/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C60F8B7F735D4574B0B3334D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				71A5A406145546289B56819B /* /Users/zrz-oliver/CLionProjects/Opengl/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FA1B6C1BB77540E390A55253 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77D05C9E86044E6A514A8F6 /* test_opengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9895D00058B34C24A79F3584 /* Build configuration list for PBXNativeTarget "test_opengl" */;
+			buildPhases = (
+				1794E5996F974BAC9B3F9E5E /* Sources */,
+				E5FBD428D6994126BC530113 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EE161E17AD40DEBF473C6F /* PBXTargetDependency */,
+			);
+			name = test_opengl;
+			productName = test_opengl;
+			productReference = 1F41068CC0664DBCB29E0392 /* test_opengl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6096AE3BD4F4153AEE28336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1330;
+			};
+			buildConfigurationList = 92978815DF314E5D9EABC56A /* Build configuration list for PBXProject "test_opengl" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B5B9CE6A09144B4885654414 /* Debug */,
+				731933FCF1C74625A31ABEF2 /* Release */,
+				32C1BF2DA62344E78D59CE79 /* MinSizeRel */,
+				E50BC21BC41B413184F35475 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 71CFA0B4E9E4410BA6F312C6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0073F645EBEF4E8FA97FF7BC /* ALL_BUILD */,
+				AAD4B162C1B34980B592545C /* ZERO_CHECK */,
+				B77D05C9E86044E6A514A8F6 /* test_opengl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D90F747EBB9D84BE78DD65E7 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EC22958CC51459D0B443836C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  make -f /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  make -f /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  make -f /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug
+  make -f /Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1794E5996F974BAC9B3F9E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D4640852294BB6A76A5333 /* /Users/zrz-oliver/CLionProjects/Opengl/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EE161E17AD40DEBF473C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD4B162C1B34980B592545C /* ZERO_CHECK */;
+			targetProxy = 0054A830DDEB4BBF81B46E54 /* PBXContainerItemProxy */;
+		};
+		91CEDA1E4EA24D108BC4A3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD4B162C1B34980B592545C /* ZERO_CHECK */;
+			targetProxy = 85C7247C945A49EDBD833FB1 /* PBXContainerItemProxy */;
+		};
+		FC612AE87CB748A3887210F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B77D05C9E86044E6A514A8F6 /* test_opengl */;
+			targetProxy = 924C2B9B66924538995A71C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CDFE95D432F48348E071F80 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0D890834126D4A8F9CB0844C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		10EFFB4534C94C6A8DA38C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		146376BB32934865A6CC1512 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lGLEW","-lGLFW","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_opengl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1CA2EE48671D4B638D6D9210 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lGLEW","-lGLFW","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_opengl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1FBE606AD6C147A9B7CA82CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lGLEW","-lGLFW","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_opengl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2B6F094C557F453180CB8922 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		57E5CEC0D6D24B49885854EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/build";
+			};
+			name = Release;
+		};
+		5EE41B0CBE1E44CD82D5CC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lGLEW","-lGLFW","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_opengl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7D9271B5C21D4F859803F849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8977C8554AD3468CA7D37D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		91B61E9363B44A4DA4998527 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BBB098BF011B415AB26A3782 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/build";
+			};
+			name = RelWithDebInfo;
+		};
+		BF296D72CB5543CBAEE99BF5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C41D73C901204098B65FE4AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/build";
+			};
+			name = MinSizeRel;
+		};
+		EEC2370EBFD145968FDF89BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/zrz-oliver/CLionProjects/Opengl/cmake-build-debug/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5332D2A58AA04484B73FF2F0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D890834126D4A8F9CB0844C /* Debug */,
+				8977C8554AD3468CA7D37D49 /* Release */,
+				0CDFE95D432F48348E071F80 /* MinSizeRel */,
+				2B6F094C557F453180CB8922 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92978815DF314E5D9EABC56A /* Build configuration list for PBXProject "test_opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC2370EBFD145968FDF89BB /* Debug */,
+				57E5CEC0D6D24B49885854EE /* Release */,
+				C41D73C901204098B65FE4AC /* MinSizeRel */,
+				BBB098BF011B415AB26A3782 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9895D00058B34C24A79F3584 /* Build configuration list for PBXNativeTarget "test_opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE41B0CBE1E44CD82D5CC11 /* Debug */,
+				1FBE606AD6C147A9B7CA82CE /* Release */,
+				146376BB32934865A6CC1512 /* MinSizeRel */,
+				1CA2EE48671D4B638D6D9210 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E37522ED4BE448F182C4F672 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EFFB4534C94C6A8DA38C2C /* Debug */,
+				7D9271B5C21D4F859803F849 /* Release */,
+				91B61E9363B44A4DA4998527 /* MinSizeRel */,
+				BF296D72CB5543CBAEE99BF5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6096AE3BD4F4153AEE28336 /* Project object */;
+}

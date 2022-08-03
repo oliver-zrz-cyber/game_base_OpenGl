@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ZERO_CHECK in test_opengl, no dependencies
+test_opengl in test_opengl, depends on:
+ZERO_CHECK in test_opengl (explicit)
